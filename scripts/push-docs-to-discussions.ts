@@ -61,7 +61,11 @@ let query = gql`
     }
   }
 `
+// Push updates
 
+await writeFile(projectPath("changed.md"), "")
+
+exit()
 for await (let { title, content } of toPush) {
   let data = {
     categoryId,
@@ -71,7 +75,6 @@ for await (let { title, content } of toPush) {
   }
 
   let result = await client.request(query, data)
-  log(result)
 }
 
 // copy(JSON.stringify(data))

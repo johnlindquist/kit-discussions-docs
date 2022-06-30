@@ -3,8 +3,10 @@
 <meta title="Run in the Terminal">
 <meta section="advanced">
 <meta i="1">    
-<meta path="docs/run-in-the-terminal">    
+<meta path="docs/run-in-the-terminal">
 
-# Run in the Terminal  
+# Run in the Terminal
 
-In progress...
+Perfect
+nice
+okay
