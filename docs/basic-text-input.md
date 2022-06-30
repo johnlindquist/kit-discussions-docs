@@ -3,8 +3,8 @@
 <meta title="Basic Text Input">
 <meta section="essentials">
 <meta i="0">    
-<meta path="docs/basic-text-input">    
+<meta path="docs/basic-text-input">
 
-# Basic Text Input  
+# Basic Text Input
 
-In progress...
+In progress... Testing live commit
