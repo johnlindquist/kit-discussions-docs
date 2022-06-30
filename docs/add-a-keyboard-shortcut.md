@@ -3,8 +3,6 @@
 <meta title="Add a Keyboard Shortcut">
 <meta section="script-options">
 <meta i="0">    
-<meta path="docs/add-a-keyboard-shortcut">    
+<meta path="docs/add-a-keyboard-shortcut">
 
-# Add a Keyboard Shortcut  
-
-In progress...
+Testing commit
