@@ -7,7 +7,7 @@
 
 ## // Shortcut Metadata
 
-Use the `Shortcut` metadata to add a global keyboard shortcut to any script
+Use the `// Shortcut` metadata to add a global keyboard shortcut to any script
 
 ```js
 // Shortcut: cmd shift j
