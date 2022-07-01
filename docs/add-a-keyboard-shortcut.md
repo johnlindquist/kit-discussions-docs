@@ -5,10 +5,20 @@
 <meta i="0">    
 <meta path="docs/add-a-keyboard-shortcut">
 
+Use the `Shortcut` metadata to add a global keyboard shortcut to any script
+
 ```js
 // Shortcut: cmd shift j
 
 import "@johnlindquist/kit"
 
 say(`You pressed command shift j`)
+```
+
+```js
+// Shortcut: option i
+
+import "@johnlindquist/kit"
+
+say(`You pressed option i`)
 ```
