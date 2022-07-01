@@ -26,3 +26,13 @@ say(`You pressed option i`)
 ```
 
 ## // Shortcode Metadata
+
+To trigger a `// Shortcode`, type the string of characters from the main menu, then hit `spacebar`. In this example, you would type `oi` then `spacebar` to run this script:
+
+```js
+// Shortcode: oi
+
+import "@johnlindquist/kit"
+
+say(`You pressed option i`)
+```
