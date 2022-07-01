@@ -7,4 +7,8 @@
 
 ```js
 // Shortcut: cmd shift j
+
+import "@johnlindquist/kit"
+
+say(`You pressed command shift j`)
 ```
