@@ -4,5 +4,3 @@
 <meta section="script-options">
 <meta i="0">    
 <meta path="docs/add-a-keyboard-shortcut">
-
-Testing commit again
