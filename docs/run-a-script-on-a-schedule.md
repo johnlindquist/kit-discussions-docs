@@ -1,7 +1,7 @@
 <meta url="https://github.com/johnlindquist/kit/discussions/806">
 <meta id="D_kwDOEu7MBc4AP9Tc">
 <meta title="Run a Script on a Schedule">
-<meta section="script-options">
+<meta section="Script Options">
 <meta i="1">    
 <meta path="docs/run-a-script-on-a-schedule">    
 
