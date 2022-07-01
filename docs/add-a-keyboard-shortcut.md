@@ -27,6 +27,8 @@ say(`You pressed option i`)
 
 ## // Shortcode Metadata
 
+A shortcode allows you quickly run a script without needing to search for it.
+
 To trigger a `// Shortcode`, type the string of characters from the main menu, then hit `spacebar`. In this example, you would type `oi` then `spacebar` to run this script:
 
 ```js
