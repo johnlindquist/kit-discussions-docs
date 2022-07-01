@@ -16,7 +16,7 @@ say(`You pressed command shift j`)
 ```
 
 ```js
-// Shortcut: option i
+// Shortcut: opt i
 
 import "@johnlindquist/kit"
 
