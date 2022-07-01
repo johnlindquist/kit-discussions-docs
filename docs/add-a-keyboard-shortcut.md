@@ -41,13 +41,44 @@ say(`You pressed option i`)
 
 ## Quick Submit from Hint
 
+A common pattern from Terminal is to quickly submit a script from a hint. Using a bracket around a single character will submit that character when pressed.
+
 ```js
 import "@johnlindquist/kit"
-u
+
 let value = await arg({
   placeholder: "Continue?",
   hint: `Another [y]/[n]`,
 })
 
-await div(value)
+if (value === "y") {
+  say(`You pressed y`)
+} else {
+  say(`You pressed n`)
+}
+```
+
+## Quick Submit from Choice
+
+If you need to provide a little more information to the user, use a choice instead of a hint. This allows you to provide a full value that will be submitted instead of just the single letter.
+
+```js
+import "@johnlindquist/kit"
+
+let value = await arg("Select a food", [
+  {
+    name: "[a]pple",
+    value: "apple",
+  },
+  {
+    name: "[b]anana",
+    value: "banana",
+  },
+  {
+    name: "[c]heese",
+    value: "cheese",
+  },
+])
+
+await div(md(value))
 ```
