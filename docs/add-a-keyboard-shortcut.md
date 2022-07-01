@@ -38,3 +38,16 @@ import "@johnlindquist/kit"
 
 say(`You pressed option i`)
 ```
+
+## Quick Submit from Hint
+
+```js
+import "@johnlindquist/kit"
+u
+let value = await arg({
+  placeholder: "Continue?",
+  hint: `Another [y]/[n]`,
+})
+
+await div(value)
+```
