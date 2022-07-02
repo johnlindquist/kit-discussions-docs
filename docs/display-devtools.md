@@ -1,4 +1,4 @@
-<meta url="https://github.com/johnlindquist/kit/discussions/798">
+<meta sectionIndex="1"><meta url="https://github.com/johnlindquist/kit/discussions/798">
 <meta id="D_kwDOEu7MBc4AP9TU">
 <meta title="Display Devtools">
 <meta section="Essentials">
