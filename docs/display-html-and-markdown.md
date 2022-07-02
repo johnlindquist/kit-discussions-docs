@@ -22,7 +22,7 @@ await div(`<h1>Hello World</h1>`)
 
 ## Display HTML with CSS
 
-Script Kit includes Tailwind CSS as part of its default styles.
+Script Kit includes [Tailwind CSS](https://tailwindcss.com/) as part of its default styles.
 
 [Open display-html-with-css in Script Kit](https://scriptkit.com/api/new?name=display-html-with-css&url=https://gist.githubusercontent.com/johnlindquist/18f9790d737f299ede36b54c9495035e/raw/1d80190f0cfce860078cec799fd614bd6f49a474/display-html-with-css.js")
 
