@@ -1,4 +1,4 @@
-<meta url="https://github.com/johnlindquist/kit/discussions/811">
+<meta sectionIndex="2"><meta url="https://github.com/johnlindquist/kit/discussions/811">
 <meta id="D_kwDOEu7MBc4AP9Th">
 <meta title="Share as Gist">
 <meta section="Share Scripts">
