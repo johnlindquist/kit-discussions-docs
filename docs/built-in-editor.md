@@ -1,4 +1,5 @@
-<meta sectionIndex="1"><meta url="https://github.com/johnlindquist/kit/discussions/794">
+<meta sectionIndex="1">
+<meta url="https://github.com/johnlindquist/kit/discussions/794">
 <meta id="D_kwDOEu7MBc4AP9TQ">
 <meta title="Built-in Editor">
 <meta section="Essentials">
