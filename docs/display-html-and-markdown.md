@@ -11,6 +11,7 @@
 ```js
 // Name: Display HTML
 
+// Note: The im
 import "@johnlindquist/kit"
 
 await div(`<h1>Hello World</h1>`)
