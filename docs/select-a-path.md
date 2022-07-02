@@ -1,4 +1,5 @@
-<meta sectionIndex="1"><meta url="https://github.com/johnlindquist/kit/discussions/809">
+<meta sectionIndex="1">
+<meta url="https://github.com/johnlindquist/kit/discussions/809">
 <meta id="D_kwDOEu7MBc4AP9Tf">
 <meta title="Select a Path">
 <meta section="Essentials">
