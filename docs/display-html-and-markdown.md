@@ -8,7 +8,7 @@
 
 ## Display HTML
 
-Use `await div(`<p>Some HMTL</p>`)` to display HTML.
+Use `await div(\`<p>Some HMTL</p>\`)` to display HTML.
 
 [Open display-html in Script Kit](https://scriptkit.com/api/new?name=display-html&url=https://gist.githubusercontent.com/johnlindquist/ba1d6754436d898f8cebe8558647e720/raw/468e99941e8c63eff51ba24b6cb7c86bb9dd70fe/display-html.js")
 
