@@ -10,8 +10,6 @@
 
 Use `await div('')` to display HTML.
 
-[Open display-html in Script Kit](https://scriptkit.com/api/new?name=display-html&url=https://gist.githubusercontent.com/johnlindquist/ba1d6754436d898f8cebe8558647e720/raw/468e99941e8c63eff51ba24b6cb7c86bb9dd70fe/display-html.js")
-
 ```js
 // Name: Display HTML
 
@@ -19,6 +17,8 @@ import "@johnlindquist/kit"
 
 await div(`<h1>Hello World</h1>`)
 ```
+
+[Open display-html in Script Kit](https://scriptkit.com/api/new?name=display-html&url=https://gist.githubusercontent.com/johnlindquist/ba1d6754436d898f8cebe8558647e720/raw/468e99941e8c63eff51ba24b6cb7c86bb9dd70fe/display-html.js")
 
 ## Display HTML with CSS
 
