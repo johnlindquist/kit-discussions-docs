@@ -1,4 +1,4 @@
-<meta url="https://github.com/johnlindquist/kit/discussions/792">
+<meta sectionIndex="3"><meta url="https://github.com/johnlindquist/kit/discussions/792">
 <meta id="D_kwDOEu7MBc4AP9TO">
 <meta title="Add a Keyboard Shortcut">
 <meta section="Script Options">
