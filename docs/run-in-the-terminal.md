@@ -1,4 +1,4 @@
-<meta url="https://github.com/johnlindquist/kit/discussions/808">
+<meta sectionIndex="7"><meta url="https://github.com/johnlindquist/kit/discussions/808">
 <meta id="D_kwDOEu7MBc4AP9Te">
 <meta title="Run in the Terminal">
 <meta section="Advanced">
