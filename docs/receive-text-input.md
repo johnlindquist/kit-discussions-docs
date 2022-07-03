@@ -6,4 +6,6 @@
 <meta i="1">    
 <meta path="docs/receive-text-input">
 
-In progress...
+## Input Text with `await arg()`
+
+The simplest form of input you can accept from a user is an `arg()`
