@@ -38,6 +38,8 @@ await div(
 
 ## Display Markdown
 
+The `md()` function will convert Markdown to HTML into HTML that you can pass into div. It will also add the default Tailwind styles so you won't have to think about formatting.
+
 ```js
 // Name: Display Markdown
 
