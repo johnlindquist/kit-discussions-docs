@@ -35,3 +35,17 @@ await div(
   `<h1 class="p-10 text-4xl text-center">Hello World</h1>`
 )
 ```
+
+## Display Markdown
+
+```js
+// Name: Display Markdown
+
+import "@johnlindquist/kit"
+
+let html = md(`# Hello World`)
+
+await div(html)
+```
+
+[Open display-markdown in Script Kit](https://scriptkit.com/api/new?name=display-markdown&url=https://gist.githubusercontent.com/johnlindquist/84779dbf8e39212c672b16ee72c68ccf/raw/7e985c988fa6aa878e4c0040dac6b87b8cfb173c/display-markdown.js")
