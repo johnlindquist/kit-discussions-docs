@@ -5,7 +5,3 @@
 <meta section="Essentials">
 <meta i="0">    
 <meta path="docs/basic-text-input">
-
-## Input Text with `await arg()`
-
-The simplest form of input you can accept from a user is an `arg()`
