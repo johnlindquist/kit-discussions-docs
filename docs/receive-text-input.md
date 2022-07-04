@@ -41,3 +41,37 @@ await div(md(`You selected ${fruit}`))
 [Open select-from-a-list in Script Kit](https://scriptkit.com/api/new?name=select-from-a-list&url=https://gist.githubusercontent.com/johnlindquist/a53ebfe6372eb3ad3aade06e2d11ef51/raw/b1939b6cceb669f2bbaeec5e6b3af2549994e214/select-from-a-list.js")
 
 ## Select From a List of Objects
+
+```js
+// Name: Select From a List of Objects
+
+import "@johnlindquist/kit"
+
+let { size, weight } = await arg("Select a Fruit", [
+  {
+    name: "Apple",
+    description: "A shiny red fruit",
+    // add any properties to "value"
+    value: {
+      size: "small",
+      weight: 1,
+    },
+  },
+  {
+    name: "Banana",
+    description: "A long yellow fruit",
+    value: {
+      size: "medium",
+      weight: 2,
+    },
+  },
+])
+
+await div(
+  md(
+    `You selected a fruit with size: ${size} and weight: ${weight}`
+  )
+)
+```
+
+[Open select-from-a-list-of-objects in Script Kit](https://scriptkit.com/api/new?name=select-from-a-list-of-objects&url=https://gist.githubusercontent.com/johnlindquist/1643c1f34cc146e19c01b5144c542b6f/raw/ac3a2bc71c27d1ee58cf83394c8755a005d2a567/select-from-a-list-of-objects.js")
