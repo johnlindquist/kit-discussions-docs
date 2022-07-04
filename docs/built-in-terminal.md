@@ -24,4 +24,4 @@ await term({
 
 [Open run-commands-in-the-terminal in Script Kit](https://scriptkit.com/api/new?name=run-commands-in-the-terminal&url=https://gist.githubusercontent.com/johnlindquist/e1fbd791d67d772c047f2afcab087cff/raw/37f5ab92f8caafbf437d4f234818ebae67fb7fba/run-commands-in-the-terminal.js")
 
-> Note: The shell defaults to `zsh`. You can change your shell by setting the `KIT_SHELL` environment variable in the ~/kenv/.env, but most of the testing has been done with `zsh`.
+**Note: The shell defaults to `zsh`. You can change your shell by setting the `KIT_SHELL` environment variable in the ~/kenv/.env, but most of the testing has been done with `zsh`.**
