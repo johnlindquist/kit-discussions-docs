@@ -89,10 +89,13 @@ let choices = heights.map(h => {
     name: `Kitten height: ${h}`,
     preview: () =>
       `<img class="w-full" src="http://placekitten.com/640/${h}"`,
+    value: h,
   }
 })
 
-await arg("Select a Kitten", choices)
+let height = await arg("Select a Kitten", choices)
+
+await div(md(`You selected ${height}`))
 ```
 
-[Open display-a-preview-when-focusing-a-choice in Script Kit](https://scriptkit.com/api/new?name=display-a-preview-when-focusing-a-choice&url=https://gist.githubusercontent.com/johnlindquist/25c012d71f802eceb8da98ecbb177d70/raw/8d26d6b1335ff5a44c3ce48d8bca4a6d21d3dcb2/display-a-preview-when-focusing-a-choice.js")
+[Open display-a-preview-when-focusing-a-choice in Script Kit](https://scriptkit.com/api/new?name=display-a-preview-when-focusing-a-choice&url=https://gist.githubusercontent.com/johnlindquist/13299ad794a03d3443a5afd8e11ca76a/raw/ac84e21e88c8ac5e8ffdd729a8a5a04a281df796/display-a-preview-when-focusing-a-choice.js")
