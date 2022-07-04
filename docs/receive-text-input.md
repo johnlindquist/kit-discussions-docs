@@ -75,3 +75,5 @@ await div(
 ```
 
 [Open select-from-a-list-of-objects in Script Kit](https://scriptkit.com/api/new?name=select-from-a-list-of-objects&url=https://gist.githubusercontent.com/johnlindquist/1643c1f34cc146e19c01b5144c542b6f/raw/ac3a2bc71c27d1ee58cf83394c8755a005d2a567/select-from-a-list-of-objects.js")
+
+## Display a Preview When Focusing a Choice
