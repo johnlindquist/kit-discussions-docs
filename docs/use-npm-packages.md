@@ -4,7 +4,7 @@
 <meta title="npm Packages">
 <meta section="Essentials">
 <meta i="6">    
-<meta path="docs/use-npm-packages">
+<meta path="docs/npm-packages">
 
 ## Install Express from npm
 
