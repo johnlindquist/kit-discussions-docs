@@ -21,3 +21,5 @@ await div(md(result))
 ```
 
 [Open editor-example in Script Kit](https://scriptkit.com/api/new?name=editor-example&url=https://gist.githubusercontent.com/johnlindquist/3be99f494f84cea0b21aa673740c0e2e/raw/64757d3981befaf3ef7b3a0eceadab240cd8c2e2/editor-example.js")
+
+## Load Text in the Editor
