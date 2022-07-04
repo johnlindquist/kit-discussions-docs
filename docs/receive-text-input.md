@@ -77,3 +77,22 @@ await div(
 [Open select-from-a-list-of-objects in Script Kit](https://scriptkit.com/api/new?name=select-from-a-list-of-objects&url=https://gist.githubusercontent.com/johnlindquist/1643c1f34cc146e19c01b5144c542b6f/raw/ac3a2bc71c27d1ee58cf83394c8755a005d2a567/select-from-a-list-of-objects.js")
 
 ## Display a Preview When Focusing a Choice
+
+```js
+// Name: Display a Preview When Focusing a Choice
+
+import "@johnlindquist/kit"
+
+let heights = [320, 480, 640]
+let choices = heights.map(h => {
+  return {
+    name: `Kitten height: ${h}`,
+    preview: () =>
+      `<img class="w-full" src="http://placekitten.com/640/${h}"`,
+  }
+})
+
+await arg("Select a Kitten", choices)
+```
+
+[Open display-a-preview-when-focusing-a-choice in Script Kit](https://scriptkit.com/api/new?name=display-a-preview-when-focusing-a-choice&url=https://gist.githubusercontent.com/johnlindquist/25c012d71f802eceb8da98ecbb177d70/raw/8d26d6b1335ff5a44c3ce48d8bca4a6d21d3dcb2/display-a-preview-when-focusing-a-choice.js")
