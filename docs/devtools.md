@@ -6,4 +6,4 @@
 <meta i="5">    
 <meta path="docs/devtools">
 
-In progress...
+## Play with Data in Chrome DevTools
