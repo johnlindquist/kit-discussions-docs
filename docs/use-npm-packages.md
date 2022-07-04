@@ -6,7 +6,7 @@
 <meta i="6">    
 <meta path="docs/use-npm-packages">
 
-## Use NPM Packages
+## Install Express from npm
 
 ```js
 // Name: Express Example
