@@ -3,7 +3,7 @@
 <meta id="D_kwDOEu7MBc4AP9TQ">
 <meta title="Built-in Editor">
 <meta section="Essentials">
-<meta i="1">    
+<meta i="3">    
 <meta path="docs/built-in-editor">
 
 ## Built-in Editor
