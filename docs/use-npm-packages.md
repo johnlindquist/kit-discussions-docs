@@ -25,7 +25,7 @@ app.get("/", (req, res) => {
 let port = await detect()
 app.listen(port)
 
-await hide()
+await hide() // in case the terminal is open from installing packages
 
 await browse(`http://localhost:${port}`)
 ```
