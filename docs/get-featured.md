@@ -11,4 +11,4 @@
 Featured scripts are displayed in:
 
 - The `hot` tab of the Script Kit main window
-- On
+- On the [Community Scripts](https://www.scriptkit.com/scripts) page
