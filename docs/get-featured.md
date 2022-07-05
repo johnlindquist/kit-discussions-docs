@@ -12,3 +12,5 @@ Featured scripts are displayed in:
 
 - The `hot` tab of the Script Kit main window
 - On the [Community Scripts](https://www.scriptkit.com/scripts) page
+
+To get featured, post your script to the [Script Kit Github discussions](https://github.com/johnlindquist/kit/discussions)
