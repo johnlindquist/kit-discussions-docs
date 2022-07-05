@@ -4,8 +4,11 @@
 <meta title="Get Featured">
 <meta section="Share Scripts">
 <meta i="0">    
-<meta path="docs/get-featured">    
+<meta path="docs/get-featured">
 
-# Get Featured  
+## Get Featured
 
-In progress...
+Featured scripts are displayed in:
+
+- The `hot` tab of the Script Kit main window
+- On
