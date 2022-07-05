@@ -15,7 +15,7 @@ Featured scripts are displayed in:
 
 To get featured, post your script to the [Script Kit Github discussions Share page](https://github.com/johnlindquist/kit/discussions/categories/share). With a script focused in the Script Kit main window, you can press right or <kbd>cmd+k</kbd> to bring up a share menu which will automatically walk you through creating a shareable post for the script.
 
-As a shortcut, hit <kbd>cmd+s</kdb> with a script selected to automatically run the "Share as Discussion" process.
+As a shortcut, hit <kbd>cmd+s</kbd> with a script selected to automatically run the "Share as Discussion" process.
 
 ## Share as a Gist, Link, URL, or Markdown
 
