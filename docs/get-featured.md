@@ -3,7 +3,7 @@
 <meta id="D_kwDOEu7MBc4AP9TZ">
 <meta title="Share Scripts">
 <meta section="Essentials">
-<meta i="0">    
+<meta i="7">    
 <meta path="docs/share-scripts">
 
 ## Get Featured
