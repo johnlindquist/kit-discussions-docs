@@ -21,6 +21,7 @@ As a shortcut, hit <kbd>cmd+s</kdb> with a script selected to automatically run 
 
 The Script Kit main window also includes many other share options:
 
-- Share as Gist: Creates as Gist of the selected script, then copies the URL to the clipboard
-- Share as Link: Creates a installable kit://link to the selected script, then copies the URL to the clipboard
--
+- Share as Gist <kbd>cmd+g</kbd>: Creates as Gist of the selected script, then copies the URL to the clipboard
+- Share as Link <kbd>opt+s</kbd>: Creates a private installable kit://link to the selected script, then copies the URL to the clipboard. These links are very long as they encode the entire script into the URL.
+- Share as URL <kbd>opt+u</kbd>: Creates a Gist of the selected script, then copies an installable public URL to the clipboard
+- Share as Markdown <kbd>cmd+m</kbd>: Copies the selected script as a Markdown snippet to the clipboard
