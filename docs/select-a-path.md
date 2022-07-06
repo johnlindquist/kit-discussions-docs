@@ -54,6 +54,23 @@ await path({
 
 ## Drag and Drop
 
+```js
+// Name: Drop Example
+
+import "@johnlindquist/kit"
+
+// Note: Dropping one or more files returns an array of file information
+// Dropping text or an image from the browser returns a string
+let fileInfos = await drop()
+
+let filePaths = fileInfos.map(f => f.path).join("
+")
+
+await div(md(filePaths))
+```
+
+[Open drop-example in Script Kit](https://scriptkit.com/api/new?name=drop-example&url=https://gist.githubusercontent.com/johnlindquist/32482b1a2a34c3abfcdbd0e6ba0c6089/raw/b544cc7af14665593600ab163aa59404da146c82/drop-example.js")
+
 ## Select from Finder Prompts
 
 ```js
