@@ -1,4 +1,4 @@
-<meta sectionIndex="6">
+<meta sectionIndex="4">
 <meta url="https://github.com/johnlindquist/kit/discussions/795">
 <meta id="D_kwDOEu7MBc4AP9TR">
 <meta title="Create a Widget">
