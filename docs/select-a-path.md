@@ -63,13 +63,12 @@ import "@johnlindquist/kit"
 // Dropping text or an image from the browser returns a string
 let fileInfos = await drop()
 
-let filePaths = fileInfos.map(f => f.path).join("
-")
+let filePaths = fileInfos.map(f => f.path).join(",")
 
 await div(md(filePaths))
 ```
 
-[Open drop-example in Script Kit](https://scriptkit.com/api/new?name=drop-example&url=https://gist.githubusercontent.com/johnlindquist/32482b1a2a34c3abfcdbd0e6ba0c6089/raw/b544cc7af14665593600ab163aa59404da146c82/drop-example.js")
+[Open drop-example in Script Kit](https://scriptkit.com/api/new?name=drop-example&url=https://gist.githubusercontent.com/johnlindquist/f7937ef8b3d5827b5aaa17b59dc4e223/raw/183d7cdd3c3e687cdd4fd6fd833abd957e57d3de/drop-example.js")
 
 ## Select from Finder Prompts
 
