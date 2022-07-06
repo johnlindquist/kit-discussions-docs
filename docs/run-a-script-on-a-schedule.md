@@ -1,4 +1,4 @@
-<meta sectionIndex="3">
+<meta sectionIndex="2">
 <meta url="https://github.com/johnlindquist/kit/discussions/806">
 <meta id="D_kwDOEu7MBc4AP9Tc">
 <meta title="Run a Script on a Schedule">
