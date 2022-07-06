@@ -20,7 +20,35 @@ await div(md(`You selected ${filePath}`))
 
 [Open select-a-path in Script Kit](https://scriptkit.com/api/new?name=select-a-path&url=https://gist.githubusercontent.com/johnlindquist/68ae880d76f6d92b1aa9994501465f2b/raw/839a08ef025a07e5d5e292c8730d7c631b934798/select-a-path.js")
 
-##
+## Select a Path with Options
+
+```js
+// Name: Select a Path with Options
+
+import "@johnlindquist/kit"
+
+await path({
+  onChoiceFocus: async (input, { focused }) => {
+    let focusedPath = focused.value
+    try {
+      let files = await readdir(focusedPath)
+      let hasJS = files.find(f => f.endsWith(".js"))
+
+      setPreview(
+        md(
+          `${
+            hasJS ? "✅ Found" : "🔴 Didn't find"
+          } JS files`
+        )
+      )
+    } catch (error) {
+      log(error)
+    }
+  },
+})
+```
+
+[Open select-a-path-with-options in Script Kit](https://scriptkit.com/api/new?name=select-a-path-with-options&url=https://gist.githubusercontent.com/johnlindquist/6d333767dd0f4f44bd7c02052f24e09f/raw/4c42d6b05ada639172cb4c996b9865fba3e6bf48/select-a-path-with-options.js")
 
 ## Select from Finder Prompts
 
