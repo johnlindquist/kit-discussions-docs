@@ -28,13 +28,14 @@ for await (let f of files) {
     "utf8"
   )
 
-  let title =
-    content.match(/(?<=<meta title=").*(?=")/)?.[0] || ""
+  let [title] = content.match(
+    /(?<=<meta title=")(.*)(?=")/
+  ) || [""]
   let id =
     content.match(/(?<=<meta id=").*(?=")/)?.[0] || ""
 
   if (id) {
-    toUpdate.push({ title, content })
+    // toUpdate.push({ title, content })
   } else {
     toPush.push({ title, content })
   }
@@ -63,9 +64,9 @@ let query = gql`
 `
 // Push updates
 
-await writeFile(projectPath("changed.md"), "")
+// await writeFile(projectPath("changed.md"), "")
 
-exit()
+// exit()
 for await (let { title, content } of toPush) {
   let data = {
     categoryId,
@@ -73,6 +74,8 @@ for await (let { title, content } of toPush) {
     title,
     content,
   }
+
+  // log(data)
 
   let result = await client.request(query, data)
 }

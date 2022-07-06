@@ -1,40 +1,32 @@
 - Essentials
 
-  - Basic Text Input
-  - Built-in Editor
+  - Display HTML and Markdown
+  - Text Input
   - Select a Path
-  - Drag and Drop
-  - Display Images and Text
-  - Display Devtools
-  - Use NPM Packages
+  - Built-in Editor
+  - Built-in Terminal
+  - Environment Variables
+  - DevTools
+  - npm Packages
+  - Share Scripts
 
-- Share Scripts
-
-  - Get Featured
-  - Share as Gist
-  - Share as Link
-
-- Script Options
+- Script Metadata
 
   - Add a Keyboard Shortcut
   - Run a Script on a Schedule
   - Watch for File Changes
 
-- Files
+- Files and Data
 
   - Read Files
   - Create Files
   - Download Files
-
-- Data
-
-  - Environment Variables
-  - CRUD Data
+  - Simple Storage
 
 - Widgets
 
   - Create a Widget
-  - Send and Receive Widget Events
+  - Widget Events
 
 - Advanced
 

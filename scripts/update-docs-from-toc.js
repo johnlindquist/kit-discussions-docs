@@ -1,4 +1,4 @@
-// Name: Create Docs from TOC
+// Name: Update Docs from TOC
 
 import "@johnlindquist/kit"
 
@@ -20,8 +20,8 @@ let toc = sections.flatMap(s => {
 })
 
 let currentSection = ``
-let i = 0
 let sectionIndex = 0
+let i = 0
 await ensureDir(projectPath("docs"))
 for await (let { section, title } of toc) {
   if (section !== currentSection) {
@@ -34,21 +34,28 @@ for await (let { section, title } of toc) {
   let fileName = slug + ".md"
   let h = slugify(section, { lower: true })
   let filePath = projectPath("docs", fileName)
-  let content = `
-<meta sectionIndex="${sectionIndex}">
-<meta title="${title}">
-<meta section="${section}">
-<meta i="${i}">    
-<meta path="docs/${slug}">
 
-In progress...
-    `.trim()
+  try {
+    let result = await replace({
+      files: filePath,
+      from: [
+        /<meta title="[^"]*">/,
+        /<meta section="[^"]*">/,
+        /<meta sectionIndex="[^"]*">/,
+        /<meta i="[^"]*">/,
+        /<meta url="[^"]*">/,
+      ],
+      to: [
+        `<meta title="${title}">`,
+        `<meta section="${section}">`,
+        `<meta sectionIndex="${sectionIndex}">`,
+        `<meta i="${i}">`,
+      ],
+    })
 
-  if (!(await isFile(filePath))) {
-    console.log(`👍 Creating ${fileName}`)
-    await writeFile(filePath, content)
-  } else {
-    console.log(`${filePath} already exists`)
+    log(result)
+  } catch (error) {
+    console.log(`Error: ${error}`)
   }
 
   i++
