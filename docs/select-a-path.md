@@ -52,6 +52,8 @@ await path({
 
 [Open select-a-path-with-options in Script Kit](https://scriptkit.com/api/new?name=select-a-path-with-options&url=https://gist.githubusercontent.com/johnlindquist/8ec7f7178cd44481aed4e968fd83da3f/raw/c8a4d8deacaa192f07fbdfed7c17a75558bc99a7/select-a-path-with-options.js")
 
+## Drag and Drop
+
 ## Select from Finder Prompts
 
 ```js
