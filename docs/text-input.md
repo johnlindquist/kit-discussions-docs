@@ -1,6 +1,6 @@
 <meta url="https://github.com/johnlindquist/kit/discussions/819">
 <meta id="D_kwDOEu7MBc4AP-jk">
-<meta sectionId="1">
+<meta sectionIndex="1">
 <meta title="Text Input">
 <meta section="Essentials">
 <meta i="1">    
