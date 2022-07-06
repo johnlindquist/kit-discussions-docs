@@ -28,6 +28,8 @@ await div(md(`You selected ${filePath}`))
 import "@johnlindquist/kit"
 
 await path({
+  hint: `Select a path containing JS files`,
+  onlyDirs: true,
   onChoiceFocus: async (input, { focused }) => {
     let focusedPath = focused.value
     try {
@@ -48,7 +50,7 @@ await path({
 })
 ```
 
-[Open select-a-path-with-options in Script Kit](https://scriptkit.com/api/new?name=select-a-path-with-options&url=https://gist.githubusercontent.com/johnlindquist/6d333767dd0f4f44bd7c02052f24e09f/raw/4c42d6b05ada639172cb4c996b9865fba3e6bf48/select-a-path-with-options.js")
+[Open select-a-path-with-options in Script Kit](https://scriptkit.com/api/new?name=select-a-path-with-options&url=https://gist.githubusercontent.com/johnlindquist/8ec7f7178cd44481aed4e968fd83da3f/raw/c8a4d8deacaa192f07fbdfed7c17a75558bc99a7/select-a-path-with-options.js")
 
 ## Select from Finder Prompts
 
